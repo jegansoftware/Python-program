@@ -1,0 +1,33 @@
+
+india= raw_input("Are you India? :")
+
+if (india=="yes") or (india=="YES") or (india=="Yes"):
+
+        a=raw_input("Enter Name   :")
+        b=input("Enter Age  :")
+        c=raw_input("Have you completed Degree ?")
+        d=input("Enter Your Mobile No :")
+
+        print
+        print
+
+        s="Name  : %s" %a
+        s1="Age   : %s" %b
+        s2="Degree: %s" %c
+        s3="Phone : (+91) %s" %d
+
+
+        print("Details have been collected from user")
+        kk=raw_input("Do you want to display ? ")
+
+        if (kk=="Yes") or (kk=="yes") or (kk=="YES"):
+            print(s)
+            print(s1)
+            print(s2)
+            print(s3)
+        else :
+            print("Details were stored in Database")
+
+else :
+    print("Indians will be allowed to apply ")
+    print("We confirmed that you aren't indian")
